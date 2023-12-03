@@ -12,20 +12,20 @@
 <body>
     <div id="pagina">
       <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg" id="NavBar">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" id="logo" href="#"><img id="" src="Img/cruz-hd-8k.avif" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Horários</a>
-                <a class="nav-link" href="#">Eventos</a>
-                <a class="nav-link" href="#">QrCode</a>
-                <a class="nav-link" href="#">Pastores</a>
-                <a class="nav-link" href="#">Localização</a>
+                <a class="nav-link" href="#Horários">Horários</a>
+                <a class="nav-link" href="#Eventos">Eventos</a>
+                <a class="nav-link" href="#QR">QrCode</a>
+                <a class="nav-link" href="#PastoresSec">Pastores</a>
+                <a class="nav-link" href="#LocalizaçãoSec">Localização</a>
               </div>
             </div>
           </div>
@@ -37,19 +37,19 @@
           <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="ImgCarousel/carousel-1-Mob.svg" class="img-fluid  d-md-none w-100" alt="Imagem1M">
-                  <img src="ImgCarousel/carousel-1-Tab.svg" class="img-fluid d-none d-md-block d-xl-none w-100" alt="Imagem1T">
-                  <img src="ImgCarousel/carousel-1-Web.svg" class="img-fluid d-none d-md-none d-xl-block  w-100" alt="Imagem1">
+                  <img src="ImgCarousel/mob1.svg" class="img-fluid  d-md-none w-100" alt="Imagem1M">
+                  <img src="ImgCarousel/tab1.svg" class="img-fluid d-none d-md-block d-xl-none w-100" alt="Imagem1T">
+                  <img src="ImgCarousel/web1.svg" class="img-fluid d-none d-md-none d-xl-block  w-100" alt="Imagem1">
                 </div>
                 <div class="carousel-item">
-                  <img src="ImgCarousel/carousel-2-Mob.svg" class="img-fluid  d-md-none w-100" alt="Imagem2M">
-                  <img src="ImgCarousel/carousel-2-Tab.svg" class="img-fluid d-none d-md-block d-xl-none w-100" alt="Imagem2T">
-                  <img src="ImgCarousel/carousel-2-Web.svg" class="img-fluid d-none d-md-none d-xl-block  w-100" alt="Imagem2">
+                  <img src="ImgCarousel/mob2.svg" class="img-fluid  d-md-none w-100" alt="Imagem2M">
+                  <img src="ImgCarousel/tab2.svg" class="img-fluid d-none d-md-block d-xl-none w-100" alt="Imagem2T">
+                  <img src="ImgCarousel/web2.svg" class="img-fluid d-none d-md-none d-xl-block  w-100" alt="Imagem2">
                 </div>
                 <div class="carousel-item">
-                  <img src="ImgCarousel/carousel-3-Mob.svg" class="img-fluid  d-md-none w-100" alt="Imagem3M">
-                  <img src="ImgCarousel/carousel-3-Tab.svg" class="img-fluid d-none d-md-block d-xl-none w-100" alt="Imagem3T">
-                  <img src="ImgCarousel/carousel-3-Web.svg" class="img-fluid d-none d-md-none d-xl-block  w-100" alt="Imagem3">
+                  <img src="ImgCarousel/mob3.svg" class="img-fluid  d-md-none w-100" alt="Imagem3M">
+                  <img src="ImgCarousel/tab3.svg" class="img-fluid d-none d-md-block d-xl-none w-100" alt="Imagem3T">
+                  <img src="ImgCarousel/web3.svg" class="img-fluid d-none d-md-none d-xl-block  w-100" alt="Imagem3">
                   
                 </div>
               </div>
@@ -64,28 +64,35 @@
             </div>
       </section>
         <!-- Horários -->
-        <section>
-          <h2 class="text-center m-2 p-2">Horário de Funcionamento</h2>
+        <section id="Horários">
+          <div id="Titulos1">
+            <h2>Horário de Funcionamento</h2>
+          </div>
           <div class="d-flex" id="Horario">
             <div id="TextoH">
-              <p>Terça:
-              Estudo Bíblico/20h</p>
-              <p>Quarta:
-              Oração/7h</p>
-              <p>Quinta:
-              Culto/20h</p>
-              <p>Domingo:
-              Culto/18h</p>
+              <div id="BoxTextoH">
+                <p>Terça:
+                Estudo Bíblico/20h</p>
+                <p>Quarta:
+                Oração/7h</p>
+                <p>Quinta:
+                Culto/20h</p>
+                <p>Domingo:
+                Culto/18h</p>
+              </div>
             </div>
             <div id="ImgH">
-              <img src="Img/img-horário.jpg" alt="IgrejaImg">
+              <img src="Img/ainda-vida-da-coroa-de-espinhos.jpg" alt="IgrejaImg">
             </div>
           </div>
         </section>
 
         <!-- Eventos -->
-        <section>
-          <h2 class="text-center m-2 p-2">Eventos</h2>
+        <section id="Eventos">
+          <div id="Titulos">
+            <h2 class="text-center m-2 p-2">Eventos</h2>
+          </div>
+          <br>
           <div class="container-fluid d-flex justify-content-center gap-4 flex-wrap" id="Eventos">
             <div class="caixa">
               <h3>Even</h3>
@@ -120,8 +127,10 @@
         </section>
 
         <!-- QR -->
-        <section>
-          <h2 class="text-center m-2 p-2">QRCode Imar</h2>
+        <section id="QR">
+          <div id="Titulos">
+            <h2 class="text-center m-2 p-2">QRCode Imar</h2>
+          </div>
           <div id="CentroQR">
             <div id="QrCodeImar">
               <img src="Img/QRCodeImar.jpg" alt="QrCodeImar">
@@ -130,50 +139,82 @@
         </section>
 
         <!-- Pastores -->
-        <section>
-          <h2 class="text-center m-2 p-2">Pastores</h2>
+        <section id="PastoresSec">
+          <div id="Titulos">
+            <h2 class="text-center m-2 p-2">Pastores</h2>
+          </div>
           <div id="Pastores" class="d-flex justify-content-center">
             <div class="Pastor">
               <div id="PerfilPastor">
-                <img src="Img/person_FILL0_wght400_GRAD0_opsz24.svg" alt="perfil">
+                <img src="Img/account_circle_FILL0_wght400_GRAD0_opsz24.svg" alt="perfil">
               </div>
               <!-- Nome -->
               <p>Pastor:Daminhão
-              <!-- descrição -->
-              jkfasdjkfhgsdhfjgl</p>
+              <!-- descrição --><br>
+              jkfasdjkfhg</p>
             </div>
             <div class="Pastor">
               <div id="PerfilPastor">
-                <img src="Img/person_FILL0_wght400_GRAD0_opsz24.svg" alt="perfil">
+                <img src="Img/account_circle_FILL0_wght400_GRAD0_opsz24.svg" alt="perfil">
               </div>
               <!-- Nome -->
               <p>Pastor:Daminhão
-              <!-- descrição -->
-              jkfasdjkfhgsdhfj</p>
+              <!-- descrição --><br>
+              jkfasdjkfhg</p>
             </div>
             <div class="Pastor">
               <div id="PerfilPastor">
-                <img src="Img/person_FILL0_wght400_GRAD0_opsz24.svg" alt="perfil">
+                <img src="Img/account_circle_FILL0_wght400_GRAD0_opsz24.svg" alt="perfil">
               </div>
               <!-- Nome -->
               <p>Pastor:Daminhão
-              <!-- descrição -->
-              jkfasdjkfhgsdhf</p>
+              <!-- descrição --><br>
+              jkfasdjkfh</p>
+            </div>
+            <div class="Pastor">
+              <div id="PerfilPastor">
+                <img src="Img/account_circle_FILL0_wght400_GRAD0_opsz24.svg" alt="perfil">
+              </div>
+              <!-- Nome -->
+              <p>Pastor:Daminhão
+              <!-- descrição --><br>
+              jkfasdjkf</p>
             </div>
           </div>
+          </div>
+         
         </section>
 
         <!-- Localização -->
-        <section>
-          <h2 class="text-center m-2 p-2">Localização</h2>
+        <section id="LocalizaçãoSec">
+          <div id="Titulos">
+            <h2 class="text-center m-2 p-2">Localização</h2>
+          </div>
           <div id="Localização">
-            
+            <h3 class="text-center m-2 p-2">Rua xxxx LT xxxx QR xxxx ETC</h3>
           </div>
         </section>
 
       </main>
       <footer>
         <h4>@Igreja do Avivamento Remanescente de Santa Maria</h4>
+        <div id="LinksSocias" class="d-flex justify-content-center">
+          <div class="Redes">
+            <div id="ImgRedesS">
+              <img src="Img/Facebook.svg" alt="icon-Facebook">
+            </div>
+          </div>
+          <div class="Redes">
+            <div id="ImgRedesS">
+              <img src="Img/instagram.svg" alt="icon-Instagram">
+            </div>
+          </div>
+          <div class="Redes">
+            <div id="ImgRedesS">
+              <img src="Img/wattzap.svg" alt="icon-whatsapp">
+            </div>
+          </div>
+        </div>  
       </footer>
     </div>
 
