@@ -28,10 +28,14 @@
     border-radius: 20px;
 }
 
-#Titulos1{
-    width: 100%;
+#CentroTitulo1{
     display: flex;
     justify-content: center;
+}
+
+#Titulos1{
+    width: 95%;
+    text-align: center;
     background-color: rgb(181, 181, 181);
     box-shadow: 4px 4px 5px rgb(116, 116, 116);
     border-radius: 20px;
