@@ -51,6 +51,18 @@
     }
 } 
 
+#NavAmburguer{
+    color: rgb(0, 144, 197);
+}
+
+.navbar-toggler {
+    color: red; /* Altere para a cor desejada */
+}
+
+span{
+    color: #cb0000;
+}
+
 /* Classe para Títulos */
 #Titulos{
     width: 40%;
@@ -138,6 +150,7 @@
 
 .caixa{
     width: 300px;
+    height: 400px;
     text-align: center;
     background-color: #dfdfdf;
     border-radius: 20px;
@@ -164,6 +177,7 @@
 
 .importante{
     width: 300px;
+    height: 400px;
     text-align: center;
     background-color: #cb0000;
     border-radius: 20px;
@@ -401,4 +415,19 @@ footer h4{
     width: 50px;
     height: 50px;
     border-radius: 100px;
+}
+
+/* Animações */
+#element1 {
+    width: 300px;
+    height: auto;
+    
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#element1:hover {
+    transform: scale(1.1);
 }
