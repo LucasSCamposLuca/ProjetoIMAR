@@ -434,3 +434,53 @@ footer h4{
 #element1:hover {
     transform: scale(1.1);
 }
+
+/* Palavra do Dia */
+#balao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 0;
+    width:80%;
+  }
+  
+  .balloon {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: black;
+    transition: all 0.3s ease;
+    font-size: 25px;
+    box-shadow: 0 0 0 5px  rgb(173, 173, 173);
+    text-align: center;
+    margin: 15px;
+  }
+  
+  .balloon:hover {
+     padding: 60px 50px;
+     border-radius: 100%;
+     transition: 1000ms;
+  }
+
+  .text{
+    padding: 20px;
+  }
+
+  #text2{
+    text-align: center;
+    color: rgb(158, 157, 157);
+    text-shadow: 0 0 5px rgb(207, 207, 207);
+  }
